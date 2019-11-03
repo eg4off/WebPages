@@ -1,0 +1,258 @@
+body{
+	margin-top: 0px;
+	padding: 0px;
+	font-family: sans-serif, arial;
+	font-size: 20px;
+	color: #dbdbdb;
+	background: #949794
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background: #444444;
+}
+ul{
+	text-align: center;
+}
+li{
+	display: inline-block;
+	list-style-type: none;
+	border-right: 1px solid #949794;
+	margin-top: 10px;
+	padding: 20px 40px 20px 40px;
+}
+li:hover{
+	background:#a75e5e ;
+	color: #ecbb85;
+}
+.first-child{
+	border-left: 1px solid #949794;
+}
+.header>ul>a{
+	text-decoration: none;
+	color: #dbdbdb;
+}
+li>a:hover{
+
+}
+select{
+	font-family: sans-serif, arial;
+	font-size: 20px;
+	color: #dbdbdb;
+	background: #444444;
+	border:none;
+}
+.content{
+	width: 100%;
+	min-height: 200px;
+}
+.story{
+	width: 100%;
+	min-height: 100px;
+	background:#544679;
+	background-image: url(photos/8.jpg) ;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #010103;
+}
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+.block{
+	display: inline-block;
+	width: 30%;
+	min-height: 950px;
+	margin-left: 30px;
+	vertical-align: top;
+}
+h3{
+	text-align: center;
+	padding-top: 20px;
+}
+img{
+	display: block;
+	margin: auto;
+}
+.block>h3>a{
+	text-decoration: none;
+	color: #dbdbdb;
+}
+.description{
+	font-size: 16px;
+	margin:20px;
+	text-align: center;
+}
+.second > img{
+	width: 360px;
+	height: 510px;
+}
+.third > img{
+	width: 360px;
+	height: 510px;
+}
+.trailers{
+	width: 100%;
+	min-height: 100px;
+	background: linear-gradient(to top, #997457,#51402c);
+	border-bottom: 2px solid #010103;
+}
+h2{
+	text-align: center;
+	padding-top: 20px;
+}
+.video{
+	display: inline-block;
+	width: 30%;
+	height: 200px;
+	margin-left: 30px;
+}
+video{
+	width: 400px;
+	height: 300px;
+}
+.reviews{
+	width: 100%;
+	min-height: 100px;
+	background-image: url(photos/10.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #010103;
+	color: #dbdbdb;
+	font-size: 16px;
+
+}
+.critics{
+	display: inline-block;
+	width: 30%;
+	min-height: 200px;
+	margin-left: 30px;
+	padding-bottom: 40px;
+	vertical-align: top;
+}
+q{
+	display: inline-block;
+}
+span{
+	display: block;
+}
+.raiting-1{
+	margin-top: 140px;
+}
+.raiting-2{
+	margin-top: 30px;
+}
+.raiting-3{
+	margin-top: 65px;
+}
+.actors{
+	width: 100%;
+	min-height: 100px;
+	background: linear-gradient(to top, #7e7b64, #0b4a42);
+	border-bottom: 2px solid #010103;
+}
+.main-role{
+	margin-top: 20px; 
+}
+.main-role:last-child{
+	margin-bottom: 50px;
+}
+.img{
+	width: 100px;
+	display: inline-block;
+	margin-left: 30px;
+}
+.History{
+	display: inline;
+	width: 80%;
+	min-height: 100px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+h4{
+	display: inline-block;
+}
+.filmography{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+.director{
+	width: 100%;
+	min-height: 100px;
+	background: url(photos/12.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #010103;
+	color:#dbdbdb; 
+}
+.biography{
+	margin: 30px 30px 50px 30px;
+}
+.filmography>p>a{
+	text-decoration: none;
+	color:#dbdbdb;
+}
+form{
+	width: 100%;
+	min-height: 100px;
+	background: linear-gradient(to top, #414ba2, #161d5a);
+	border-bottom: 2px solid #010103;
+}
+label{
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+label>span{
+	display: inline-block;
+	padding-right: 100px;
+}
+label>input{
+	width: 302px;
+	height: 20px;
+	background:#949794;
+	border-radius: 3px;
+}
+textarea{
+	width: 500px;
+	height: 200px;
+	background:#949794;
+	border-radius: 3px;
+}
+form>input{
+	width: 120px;
+    height: 35px;
+    border-radius: 5px;
+	font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-left: 800px;
+    background: #648662;
+}
+.footer{
+	width: 100%;
+	min-height: 80px;
+	background: #444444;
+	margin-top: 20px;
+	position: relative;
+}
+.footer>div{
+	display: inline-block;
+	width: 48%;
+	padding-top: 10px;
+}
+.footer>div:first-child{
+	position: absolute;
+    top: 10px;
+}
+.logo{
+	display: inline-block;
+	margin-left: 40px;
+}
+.rights{
+	vertical-align: middle;
+	text-align: right;
+	float: right;
+    margin-right: 30px;
+}

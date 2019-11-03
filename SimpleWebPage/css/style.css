@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    min-width: 640px;
+    background: url(../img/Backgr.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 20%;
+}
+.title{
+    margin: auto;
+    writing-mode: tb-rl;
+    transform:rotate(180deg);
+    font-size:40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.title span{
+    margin: 3rem auto;
+    color: #808080;
+}
+.info{
+    display: none;
+    background-color: #f1f5f8;
+    min-width: 320px;
+}
+.active{
+    display: block;
+}
+.agro{
+    background: url(../img/agro\ back.png) no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.wehicle{
+    background: url(../img/wehicle\ back.png) no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.lorry{
+    background: url(../img/wehicle\ back.png) no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.special{
+    background: url(../img/spectech\ back.png) no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.train{
+    background: url(../img/train\ back.png) no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.content{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feedback{
+    width: 33%;
+    margin: auto;
+}
+.feedback p{
+    font-size: 0.75rem;
+    margin: 2rem 0;
+}
+button{
+    color:#f1f5f8;
+    font-weight: 800;
+    border: solid 2px #0a7cff;
+    background: #0a7cff;
+    padding: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.logos-block{
+    width: 66%;
+    min-width: 640px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.image{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.popUP-wrapper{
+    display: none;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 3rem;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+.popUp{
+    width: 60%;
+    margin: auto;
+    min-width: 320px;
+    background-color: #f1f5f8;
+    border: 1px solid #0a7cff;
+    border-radius: 5rem;
+    padding: 2rem;
+}
+@media (max-width:640px){
+    header{flex-direction: column;}
+    .item{height: 8rem;width: 100%;}
+    .title{transform: rotate(270deg); height: 5rem; position: relative; left: -200px;}
+    .content{display: block; margin: 0;}
+    .feedback{width: 70%; margin: auto;}
+    .logos-block{width: 100%; margin: auto;}
+}

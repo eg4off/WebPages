@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style-payment.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Payment</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-info logo">
+                <img src="img/logo.png" alt="logo">
+                <p>
+                    Front-end developer test task
+                </p>
+            </div>
+            <div class="header-info cart">
+                <p>
+                    cart
+                </p>
+                <img src="img/cart.png" alt="cart">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main-form">
+            <div class="form-header">
+                <p class="form-nav">Shipping</p>
+                <img src="img/arrow.png" alt="">
+                <p class="form-nav">Billing</p>
+                <img src="img/arrow.png" alt="">
+                <p class="form-nav">Payment</p>
+            </div>
+            <h2>
+                Payment
+            </h2>
+            <div class="lock">
+                <img src="img/lock.png" alt="lock">
+                <p>
+                    This is a secure 128-bit SSL encrypted payment
+                </p>
+            </div>
+            <form action="" method="POST" id="second-form">
+                    <div class="card">
+                            <h4>Cardholder Name</h4>
+                            <input type="text" placeholder="Name as it appears on your card" id="cardName">
+                            <h4>Card Number</h4>
+                            <input type="number" step="1" placeholder="XXXX XXXX XXXX XXXX XXXX" id="cardNumber">
+                            <div class="numb">
+                                <div class="date">
+                                        <h4>Expire Date</h4>
+                                        <input type="number" step="1" placeholder="MM / YY" id="cardDate">
+                                </div>
+                                <div class="cvv">
+                                        <h4>Security Code</h4>
+                                        <input type="password" placeholder="" id="cvvCode">
+                                </div>
+                            </div>
+                    </div>   
+                <input type="submit" value="Continue" id="sendBtn">
+            </form>
+        </div>
+        <div class="goods-descript">
+            <div class="goods-header">
+                <h3>Order Summary</h3>
+                <p class="price">edit order</p>
+            </div>
+            <div class="goods-container">
+                <div class="good">
+                    <img src="img/shoe.jpg" alt="" class="pict">
+                    <div class="good-info">
+                        <div class="title price">
+                            <p class="title-info">The Chelsea Boot</p>
+                            <p class="title-info">$235</p>
+                        </div>
+                        <div class="description">
+                            <p class="properties">Black</p>
+                            <p class="properties">Quantity: 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="good">
+                    <img src="img/backbag.jpg" alt="" class="pict">
+                    <div class="good-info">
+                        <div class="title price">
+                            <p class="title-info">The Twill Snap Backpack</p>
+                            <p class="title-info">$65</p>
+                        </div>
+                        <div class="description">
+                            <p class="properties">Reverse Denim + Brown leather</p>
+                            <p class="properties">Quantity: 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="good">
+                    <img src="img/purse.jpg" alt="" class="pict">
+                    <div class="good-info">
+                        <div class="title price">
+                            <p class="title-info">The Twill Zip Tote</p>
+                            <p class="title-info">$48</p>
+                        </div>
+                        <div class="description">
+                            <p class="properties">Reverse Denim + Black leather</p>
+                            <p class="properties">Quantity: 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="sum subtotal">
+                    <p class="price">subtotal</p>
+                    <p class="price">$398</p>
+                </div>
+                <div class="sum ship">
+                    <p class="price">ship</p>
+                    <p class="price">Free</p>
+                </div>
+                <div class="sum taxes">
+                    <p class="price">taxes</p>
+                    <p class="price">$12.12</p>
+                </div>
+            </div>
+            <div class="info">
+                <p class="price">
+                    All purchases are subject to our Terms and Conditions.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/validate-form2.js"></script>
+</body>
+</html>    

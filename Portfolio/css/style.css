@@ -1,0 +1,152 @@
+body{
+	margin-top: 0px;
+	padding: 0px;
+	font-family: sans-serif, arial;
+    font-size: 20px;
+    color: #3e3e3e;    
+}
+ul{
+    text-align: center;
+    margin: 0;
+}
+li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 20px 40px 20px 40px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border:1px solid darken(#3da2ca, 20%);
+    border-radius:7px;
+    padding: 0.75em 3em;
+    font-size: 1em;
+    outline: none;
+    display:block;
+    background: #3da2ca;
+    color: #e9e9e9;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    min-width: 200px;
+    text-align: center; 
+    cursor: pointer;
+    user-select: none;
+    margin: 10px auto;
+    float: left;
+}
+.header{
+    background: #282828;
+    position: fixed;  
+    top: 0;  
+    z-index: 1000;  
+    width: 100%;
+    height: 80px;
+}
+.language{
+    color: #e9e9e9;
+}
+.content{
+    margin-top: 100px;
+}
+.image{
+    width: 35%;
+}
+.main{
+    width: 60%;
+    vertical-align: top;
+}
+.about{
+    text-align: center;
+    background: linear-gradient(to bottom, #efd9c2,#d5dee5);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.introduction{
+    width: 80%;
+    margin: auto;
+}
+.scills{
+    text-align: center;
+    background: linear-gradient(to top, #efd9c2,#d5dee5);
+    padding-top: 10px;
+}
+.courses{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    vertical-align: top;
+}
+.works{
+    text-align: center;
+    background: linear-gradient(to bottom, #efd9c2,#d5dee5);
+    padding: 20px 0;
+}
+.examples{
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+.footer{
+    background: #2f2f2f;
+    color: #999999;
+    text-align: center;
+}
+.contacts{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.info{
+    text-align: left;
+    vertical-align: middle;
+}
+.social{
+    text-align: center;
+}
+.rights{
+    float: right;
+}
+li a{
+    color: #dbdbdb; 
+}
+.info img{
+    margin:0 15px 0 500px;
+}
+.image img{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.courses img{
+    height: 300px;
+}
+.examples img{
+    height: 275px;
+}
+.social a{
+    margin-right: 50px;
+}
+.image, .main, .about h1,.about h2,.about h3{
+    display: inline-block;
+}
+.info img, .info h4{
+    display: inline-block;
+}
+#res{
+    font-weight: 500;
+    color: #3e3e3e; 
+    text-decoration: underline;   
+
+}
+#res:hover{
+    color: #999999;
+}
+#en{
+    border-right: #999999 solid 1px;
+}
+li a:hover, #en:hover, #ua:hover{
+    color: #3da2ca;
+}
+li a:active, #res:active, #en:active, #ua:active {
+color: yellowgreen;
+}

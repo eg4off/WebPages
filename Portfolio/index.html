@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Junior Front-end developer - Eugen Chetverov</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="header" id="header">
+        <ul>
+            <li><a href="#main">Головна</a></li>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#scills">Навички</a></li>
+            <li><a href="#works">Портфоліо</a></li>
+            <li><a href="#contact">Контакти</a></li>
+            <li  class="language" ><a href="#" id="en" onclick="changeLanguageEn()">En&nbsp;</a><a href="#" id="ua" onclick="changeLanguageUa()">&nbsp;Ua</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="intro">
+            <div class="image">
+                <img src="img/main.jpg">
+            </div>
+            <div class="main" id="mainIntro">
+                <div>
+                    <h1 id="main">Привіт. Мене звати <span>Євген Четверов.</span></h1>
+                    <h2>Я - junior Front-end developer.</h2>
+                    <h3>На цьому сайті ви зможете переглянути моє  <a href="https://drive.google.com/file/d/1AHlTsY4XHbKif8LiOP39M-FRZQvORWaf/view?usp=sharing" id="res">резюме</a> та ознайомитися з моїми роботами.</h3>
+                </div>
+                <a href="#works"><button onmouseover="buttonOver(this)" onmouseout="buttonOut(this)" id="about">Переглянути мої роботи</button></a>
+            </div>
+        </div>
+        <div class="about" id="aboutMe">
+            <h2>Про мене</h2>
+            <div class="introduction">
+                <i>
+                    <p>
+                        Я тільки починаю свій повний надій шлях у Front-end, тому досвіду над реальними проектами у мене недостатньо. 
+                    Проте відсутність досвіду я легко компенсую своєю наполегливістю, вмінням швидко навчатися та жагою розвитку. 
+                    </p>
+                    <p>
+                    Я - життєрадісна людина, з чіткими життєвими орієнтирами. 
+                    В людях ціную чесність, відповідальність та почуття гумору (а як без нього?))
+                    <a id="scills">Маю досвід</a> успішного керування колективом, постановки конкретних задач для досягнення спільної мети.
+                    </p>
+                    <p>
+                    Сподіваюся працювати в дружному колективі під керивництвом справжніх професіоналів.
+                    </p>
+                </i>
+            </div>
+        </div>
+        <div class="scills" id="mySkills">
+            <div class="education">
+                <div class="courses">
+                    <img src="img/htmlcss.jpg" class="description">
+                    <h4 class="description">ITEA Certificate of completion HTML&CSS</h4>
+                </div>
+                <div class="courses">
+                    <img src="img/jsbase.jpg" class="description">
+                    <h4 class="description" id="works">ITEA Certificate of completion Java Script Base</h4>
+                </div>
+                <div class="courses">
+                    <img src="img/jsadv.jpg" class="description">
+                    <h4 class="description">ITEA Certificate of completion Java Script Advanced</h4>
+                </div>
+            </div>
+        </div>
+        <div class="works" id="myWorks">
+                <h2>Тут представлені приклади 
+                        моїх виконаних робіт
+                </h2>
+                <h4>Всі роботи були зроблені повністю вручну з нуля
+                        (дата виконання останньої: 06.06.2019 )</h4>
+                <div>
+                    <!-- <a href="http://eg4off.zzz.com.ua/"> -->
+                        <div class="examples" onclick="toMovieSite()" onmouseover="mouseOver(this)">
+                            <img src="img/NS.png">
+                            <h4 class="description">Trilogy of Night Shyamalan</h4>
+                        </div>
+                    <!-- </a> -->
+                    <!-- <a href="http://4etveroff.zzz.com.ua/"> -->
+                        <div class="examples" onclick="toShopSite()" onmouseover="mouseOver(this)">
+                            <img src="img/TS.png">
+                            <h4 class="description">T-shirt shop</h4>
+                        </div>
+                    <!-- </a> -->
+                </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contacts">
+            <h2 id="contact">Контакти</h2>
+            <div class="info" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                <img src="img/phone.png">
+                <h4>+38 (068) 07 37 592</h4>
+            </div>
+            <div class="info" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                <img src="img/mail.png">
+                <h4>4etveroff@gmail.com</h4>
+            </div>
+            <div class="info" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                <img src="img/v.png">
+                <h4>+38 (068) 07 37 592</h4>
+            </div>
+            <div class="info" onmouseover="mOver(this)" onmouseout="mOut(this)">
+                <img src="img/s.png">
+                 <h4>live:eg4off</h4>
+            </div>
+        </div>
+        <div class="social" id="social">
+                <h2>Знайти мене в соціальних мережах</h2>
+                <a href="https://www.facebook.com/profile.php?id=100011103131492" onmouseover="mOver(this)" onmouseout="mOut(this)"><img src="img/f.png"></a>
+                <a href="https://www.linkedin.com/in/eugen-chetverov-800631185/" onmouseover="mOver(this)" onmouseout="mOut(this)"><img src="img/in.png"></a>
+                <a href="https://t.me/EugenChetverov"><img src="img/t.png" onmouseover="mOver(this)" onmouseout="mOut(this)"></a>
+
+        </div>
+        <div class="rights">
+                <p>
+                    <a name="foot">
+                        &copy;&nbsp;2019. Created by Eugen Chetverov.
+                    </a>
+                </p>
+            </div>
+    </div>
+    <script src="libs/jquery-3.4.1.min.js"></script>
+    <script src="js/scrool.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

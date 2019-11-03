@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    background: #e6e9f0;
+}
+.header{
+    width: 100%;
+    border-bottom: 1px solid #f8bcde;
+    background: #ffffff;
+}
+.container{
+    width: 60%;
+    min-height: 50px;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-info{
+    display: inline-flex;
+}
+.content{
+    width: 60%;
+    margin: 3rem auto;
+    max-width: 700px;
+    max-height: 600px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.lock{
+    width: 100%;
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: space-between;
+}
+.lock>img{
+    max-width: 26px;
+    max-height: 30px;
+    margin: auto;
+}
+.main-form{
+    margin: 2rem;
+    width: 50%;
+}
+.form-header{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.form-nav{
+    margin: auto 1rem;
+}
+.form-nav:first-child{
+    margin-left: 0;
+    }
+.form-nav:last-child{
+    color: #65209b;
+}
+.main-form h4, h2{
+    color: #65209b;
+    margin-bottom: 0.5rem;
+}
+input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #f8bcde;
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+}
+.numb{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.date, .cvv{
+    width: 35%;
+}
+#sendBtn{
+    width: 68%;
+    background: #65209b;
+    color: #e6e9f0;
+    padding: 0.8rem;
+    border-radius: 7px;
+    margin-top: 2rem;
+}
+.goods-descript{
+    background: #f3f4f7;
+    width: 40%;
+    font-size: 0.8rem;
+    padding: 2rem 0 0 1rem;
+}
+.goods-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.goods-container{
+    margin-right: 1rem;
+}
+.goods-header h3{
+    font-size: 1rem;
+    color: #65209b;
+}
+.price{
+    color: #78797a;
+    font-weight: 900;
+    margin: auto 0;
+}
+.good{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e7e7ea;
+    margin-bottom: 0.7rem;
+}
+.good img{
+    max-width: 45px;
+    max-height: 45px;
+}
+.good-info{
+    width: 80%;
+}
+.properties, .title-info{
+    margin: 0;
+    font-weight: 900;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.7rem;
+    margin-bottom: 0.3rem
+}
+.summary{
+    border-bottom: 1px solid #e7e7ea;
+    margin-right: 1rem;
+}
+.sum{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.info>.price{
+    font-size: 0.7rem;
+    margin-top: 10rem;
+}
+.error{
+    color: red;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 0.7rem;
+}

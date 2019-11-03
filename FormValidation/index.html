@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <title>Form with goods</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-info logo">
+                <img src="img/logo.png" alt="logo">
+                <p>
+                    Front-end developer test task
+                </p>
+            </div>
+            <div class="header-info cart">
+                <p>
+                    cart
+                </p>
+                <img src="img/cart.png" alt="cart">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main-form">
+            <div class="form-header">
+                <p class="form-nav">Shipping</p>
+                <img src="img/arrow.png" alt="">
+                <p class="form-nav">Billing</p>
+                <img src="img/arrow.png" alt="">
+                <p class="form-nav">Payment</p>
+            </div>
+            <h2>
+                Shipping Info
+            </h2>
+            <form action="" method="POST" id="first-form">
+                <div class="recipient">
+                    <h4>Recipient</h4>
+                    <input type="text" placeholder="Full Name" id="name" minlength="2https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" >
+                    <div class="delivery">
+                        <input type="number" step="1" placeholder="Daytime Phone" id="phone" >
+                        <p>For delivery questions only</p>
+                    </div>
+                </div>
+                <div class="address">
+                    <h4>Address</h4>
+                    <input type="text" placeholder="Street Address" id="street">
+                    <input type="text" placeholder="Apt, Suite, Bldg, Gate Code. (optional)" id="apt">
+                    <input type="text" placeholder="City" id="city" >
+                    <div class="select" >
+                        <select name="country" id="country"  >
+                            <option value=""></option>
+                            <option value="">Romania</option>
+                            <option value="">Russia</option>
+                            <option value="">Rwanda</option>
+                            <option value="">Saint Kits and Nevis</option>
+                            <option value="">Saint Lucia</option>
+                            <option value="">Saint Vincent</option>
+                            <option value="">Samoa</option>
+                            <option value="">San Marino</option>
+                            <option value="">Sao Tome</option>
+                            <option value="">Saudi Arabia</option>
+                            <option value="">Senegal</option>
+                        </select>
+                        <input type="text" placeholder="ZIP">
+                    </div>
+                </div>
+                <input type="submit" value="Continue" id="btn">
+            </form>
+        </div>
+        <div class="goods-descript">
+            <div class="goods-header">
+                <h3>Order Summary</h3>
+                <p class="price">edit order</p>
+            </div>
+            <div class="goods-container">
+                <div class="good">
+                    <img src="img/shoe.jpg" alt="" class="pict">
+                    <div class="good-info">
+                        <div class="title price">
+                            <p class="title-info">The Chelsea Boot</p>
+                            <p class="title-info">$235</p>
+                        </div>
+                        <div class="description">
+                            <p class="properties">Black</p>
+                            <p class="properties">Quantity: 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="good">
+                    <img src="img/backbag.jpg" alt="" class="pict">
+                    <div class="good-info">
+                        <div class="title price">
+                            <p class="title-info">The Twill Snap Backpack</p>
+                            <p class="title-info">$65</p>
+                        </div>
+                        <div class="description">
+                            <p class="properties">Reverse Denim + Brown leather</p>
+                            <p class="properties">Quantity: 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="good">
+                    <img src="img/purse.jpg" alt="" class="pict">
+                    <div class="good-info">
+                        <div class="title price">
+                            <p class="title-info">The Twill Zip Tote</p>
+                            <p class="title-info">$48</p>
+                        </div>
+                        <div class="description">
+                            <p class="properties">Reverse Denim + Black leather</p>
+                            <p class="properties">Quantity: 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="sum subtotal">
+                    <p class="price">subtotal</p>
+                    <p class="price">$398</p>
+                </div>
+                <div class="sum ship">
+                    <p class="price">ship</p>
+                    <p class="price">Free</p>
+                </div>
+                <div class="sum taxes">
+                    <p class="price">taxes</p>
+                    <p class="price">$12.12</p>
+                </div>
+            </div>
+            <div class="info">
+                <p class="price">
+                    All purchases are subject to our Terms and Conditions.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/validate-form1.js"></script>
+</body>
+</html>

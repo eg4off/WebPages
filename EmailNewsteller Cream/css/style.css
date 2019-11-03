@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.header{
+    width: 100%;
+    min-width: 1170px;
+    background: url("../img/shapka.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Шапка */
+.head{
+    width: 70%;
+    min-width: 1170px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem auto;
+}
+.head-item{
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    font-size: 0.65em;
+    color: #7c8184;
+    margin-right: 10px;
+}
+.head-item img{
+    width: 24%;
+    margin: auto 0.4em;
+}
+.head-item p{
+    width: 80%;
+    margin: auto;
+}
+.head-item:first-child{
+    color: #332a2d;
+    font-size: 1em; 
+}
+#firsttext{
+    width: 50%;
+}
+#mikocin{
+    width: 45%;
+}
+/* Комплексное избавление от грибка */
+.main-info{
+    width: 80%;
+    min-width: 1170px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em auto;
+}
+.info{
+    width: 25%;
+}
+.info h1{
+    font-size: 1.75em;
+    font-weight: 700;
+    margin: 0;
+}
+.info h2{
+    margin-top: 0;
+    font-size: 1.3em;
+}
+.info h2 span{
+    text-decoration: underline;
+    text-decoration-color: #fe6a00;
+}
+.info h2 span:last-child{
+    text-decoration-color: #a7c93f;
+}
+.info-item{
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.75em;
+}
+.info-item img{
+    width: 16%;
+    margin: auto 0.7em auto 0;
+}
+.info-item p{
+    width: 80%;
+}
+
+/* Формa + страя-новая цена */
+.form{
+    background: url("../img/formfone.png") no-repeat;
+    background-size: 69%;
+    background-position: top;
+    width: 25%;
+    padding-right: 1em;
+    text-align: center;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    margin: auto;
+    font-size: 0.65em;
+    color: #7c8184;
+}
+.delivery img{
+    width: 20%;
+    margin: auto 0;
+}
+.delivery p{
+    margin-right: 1em;
+}
+.formtext{
+    font-size: 0.75em;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+.formtext span{
+    color: #fe6a00;
+    margin-top: 1em;
+}
+.price-block{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.price{
+text-align: center;
+font-size: 0.55em;
+}
+.price img{
+    width: 80%;
+}
+.price p{
+    margin-bottom: 0.125em;
+}
+.area{
+    width: 57%;
+    background: #eef1f6;
+    height: 3em;
+    background-position: left;
+    margin: auto;
+    border-radius: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+}
+.name{
+   background: url("../img/icon5.png") no-repeat;
+}
+.phone{
+    background: url("../img/icon6.png") no-repeat;
+ }
+ #forOrder{
+     display: block;
+     background: url("../img/yellowBottom.png") no-repeat;
+ }
+ button{
+    border: none;
+    background: none;
+    margin-top: 1em;
+ }
+ button:hover, .area:hover{
+     border: 1px solid tomato;
+ }
+ button img{
+    width: 70%;
+ }
+ .protect{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    margin: 1em auto;
+    font-size: 0.65em;
+    color: #7c8184; 
+ }
+ .protect img{
+    width: 35px;
+    height: 35px;
+    margin: auto 0;
+}
+.protect p{
+    margin-right: 1em;
+}
+
+/* Грибок – это опасная инфекция */
+.content{
+    text-align: center;
+    width: 100%;
+    min-width: 1170px;
+}
+.content-block{
+    margin-top: 5em;
+}
+.content-block h2{
+    font-size: 1.75em;
+}
+.consequenses-block{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.consequnses{
+    width: 30%;
+    text-align: center;
+}
+.exmpl{
+    display: flex;
+    justify-content: center;
+}
+.exmpl h3{
+    margin: auto;
+}
+.consequnses p{
+    text-align: left;
+}
+.findings1{
+    background: url(../img/rama1.png) no-repeat;
+    background-size: 88%;
+    background-position: center;
+    height: 8em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.findings1 p{
+    font-size: 1.2em;
+    width: 85%;
+    margin: auto;
+}
+.second{
+    background: url(../img/contentFone.png) no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+
+/* Почему большинство средств */
+.thing-info{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.things{
+    width: 30%;
+}
+.things img{
+    width: 90%;
+}
+.things.one{
+    background: url(../img/greenram2.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.things.two{
+    background: url(../img/greenram1.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.things.three{
+    background: url(../img/greenram3.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding-top: 3em;
+}
+.container p{
+    width: 85%;
+    font-size: 0.85em;
+    margin: auto;
+}
+.three>.container>p{
+    letter-spacing: .01em;
+}
+.but{
+    color: #fe6a00;
+}
+.findings2{
+    background: url(../img/rama2.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 8em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findings2 h3{
+    margin-top: 0;
+}
+.findings2 p{
+    font-size: 1.2em;
+    margin: 0;
+    width: 86%
+}
+/* Почему таблетки Микоцин */
+.miko{
+    color: #fe6a00;
+}
+.third{
+    width: 100%;
+    margin: 5em auto;
+}
+.third>p{
+    margin: 2em auto;
+}
+.methods-block{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.methods{
+    width: 30%;
+    min-height: 16em;
+}
+.methods.method1{
+    background: url(../img/ramka2.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.methods.method2{
+    background: url(../img/ramka3.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.methods.method3{
+    background: url(../img/ramka1.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.methods>h3{
+    margin-top: 4em;
+}
+.methods>p{
+    width: 86%;
+    margin: auto;
+}
+.findings3{
+    background: url(../img/rama3.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 8em;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.findings3 p{
+    font-size: 1.2em;
+    margin: auto;
+    width: 88%
+}
+
+/*  Как применять Микоцин*/
+.footer{
+    width: 100%;
+    min-width: 1170px;
+    margin: 5em auto 0 auto;
+    text-align: center;
+    background: url(../img/footerFone.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer-block{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.footer-block>img{
+    max-width: 50%;
+}
+.manual{
+    width: 45%;
+}
+.manual-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 1em;
+}
+.manual-item img{
+    max-width: 30%;
+    margin: auto;
+}
+.manual-item p{
+    margin: auto 1em;
+    width: 70%;
+    text-align: left;
+}
+
+/* Media */
+/* @media (max-width:1170px){
+    img{max-width:100%;height:auto;}
+    .head-item{display: block;}
+    .formtext{font-size: 0.55em;}
+    .area{height: 2.5em;}
+    .consequenses-block{ width: 100%;}
+    .thing-info, .third{width: 100%;}
+    .methods>p {width: 74%;}
+    .findings1,.findings2, .findings3{font-size: 0.75em; width: 90%;}
+}
+@media (max-width:990px){
+    .area{height: 2em;}
+    .info h1{font-size: 1.25em;}
+    .info h2{font-size: 0.8em;}
+    .info p{font-size: 0.55em;}
+}
+@media (max-width:900px){
+    .main-info{height: 500px;}
+    .info, .form{width: 50%;}
+    .info h1{font-size: 1.75em;}
+    .info h2{font-size: 1.25em;}
+    .info p{font-size: 1em;}
+    .formtext{font-size: 0.65em;}
+    .area{height: 3em; margin-bottom: 2.3em;}
+    button img{width: 90%; margin-bottom: 2.4em;}
+    .consequenses-block, .methods-block{ display: block;}
+    .consequnses, .methods{margin: auto;}
+    .thing-info{display: block;}
+    .things{margin: auto;}
+    .methods-block{display: block;}
+    .methods{margin: auto;}
+    .methods>h3 {margin-top: 2em;}
+}
+@media (max-width:820px){
+    .area{margin-bottom: 1.6em;}
+    button img{margin-bottom: 0; width: 80%;}
+    .consequnses, .things, .methods{width: 100%;}
+}
+
+@media (max-width:680px){
+    .footer, .manual{width: 100%}
+    .head-item p{font-size: 0.45em;}
+    .main-info{display: block; height: 750px;}
+    .info, .form{width: 80%; text-align: center;}
+    .info, .form{margin: auto;}
+    .area{height: 3em; margin-bottom: 0.8em;}
+    button img{width: 70%;} 
+    .footer-block{display: block; width: 100%} 
+    .footer-block>img{max-width: 100%}
+    .manual-item {margin: auto; width: 60%;}
+}
+@media (max-height:640px){
+}
+@media (max-height:480px){
+}
+@media (max-height:320px){
+    .area{margin-bottom: 0;}
+    .manual-item {width: 80%;}
+} */
